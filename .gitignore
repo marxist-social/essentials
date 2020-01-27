@@ -1,0 +1,6 @@
+# Composer
+/vendor
+composer.lock
+
+# IntelliJ
+/.idea

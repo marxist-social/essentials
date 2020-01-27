@@ -1,0 +1,26 @@
+{
+    "name": "marxist-social/essentials",
+    "type": "library",
+    "description": "Helpful classes for interacting with the internet in general",
+    "keywords": ["helpers", "essentials"],
+    "homepage": "https://code.marxist.social/essentials",
+    "authors": [
+        {
+            "name": "Juniper McIntyre",
+            "email": "junipermcintyre@gmail.com",
+            "homepage": "https://junipermcintyre.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "6.5.2",
+        "symfony/cache": "4.3.9",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarxistSocial\\Essentials\\": "src"
+        }
+    }
+}
